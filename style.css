@@ -31,10 +31,6 @@ ul {
     color: hotpink;
 }
 
-.rainbow {
-    color: rgb(9, 134, 76);
-}
-
 .image-border {
     padding: 2px;
     border: 10px solid purple;
