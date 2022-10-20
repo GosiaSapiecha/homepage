@@ -1,0 +1,41 @@
+.main-header {
+    font-size: x-large;
+    background-color: lightseagreen;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    background-color: aquamarine;
+    background-position: 3px;
+    border-color: blueviolet;
+    border: 5px solid peru;
+    text-align: center;
+}
+
+footer {
+    font-size: large;
+    height: 28px;
+}
+
+section {
+    margin: auto;
+}
+
+ul {
+    background-color: rgb(72, 129, 179);
+    margin: auto;
+}
+
+.hotpink-header {
+    color: hotpink;
+}
+
+.rainbow {
+    color: rgb(9, 134, 76);
+}
+
+.image-border {
+    padding: 2px;
+    border: 10px solid purple;
+}
