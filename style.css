@@ -53,3 +53,17 @@ ul {
     color: yellow;
     text-decoration: none;
 }
+
+.footer {
+    height: 100px;
+    background-color: honeydew;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    display: block;
+}
