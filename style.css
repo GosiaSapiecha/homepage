@@ -43,3 +43,13 @@ ul {
     width: 1000px;
     margin: 0 auto;
 }
+
+.header-background {
+    background-color: black;
+    color: yellow;
+}
+
+.header-background a {
+    color: yellow;
+    text-decoration: none;
+}
