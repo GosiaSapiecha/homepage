@@ -8,7 +8,7 @@
 p {
     background-color: aquamarine;
     background-position: 3px;
-    border-color: blueviolet;
+    border-color: navy;
     border: 5px solid peru;
     text-align: center;
 }
@@ -33,5 +33,8 @@ ul {
 
 .image-border {
     padding: 2px;
-    border: 10px solid purple;
+    border: 10px solid navy;
+}
+.bold-text {
+    font-weight: bold;
 }
