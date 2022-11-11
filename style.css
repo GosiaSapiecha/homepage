@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     background-color: aquamarine;
     background-position: 3px;
@@ -47,11 +52,17 @@ ul {
 .header-background {
     background-color: black;
     color: yellow;
+    height: 60px;
+    position: relative;
 }
 
 .header-background a {
     color: yellow;
     text-decoration: none;
+    background-color: rgb(19, 83, 80);
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    box-sizing: border-box;
 }
 
 .footer {
@@ -66,4 +77,10 @@ ul {
 
 .footer a {
     display: block;
+}
+
+.nav-center {
+    margin: auto;
+    width: 300px;
+    padding: 21px;
 }
