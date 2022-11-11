@@ -38,3 +38,8 @@ ul {
 .bold-text {
     font-weight: bold;
 }
+
+.main-margin {
+    width: 1000px;
+    margin: 0 auto;
+}
