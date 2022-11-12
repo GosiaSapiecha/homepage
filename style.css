@@ -57,7 +57,6 @@ ul {
 }
 
 .header-background a {
-  color: yellow;
   text-decoration: none;
   background-color: rgb(19, 83, 80);
   padding: 10px;
@@ -79,8 +78,12 @@ ul {
   display: block;
 }
 
-.nav-center {
+.navigation {
   margin: auto;
   width: 300px;
   padding: 21px;
+}
+
+.navigation__link {
+    color: lightpink;
 }
