@@ -84,3 +84,7 @@
 .heading {
     color: rgb(231, 99, 117);
 }
+
+.header__link--active {
+  background-color: rgb(189, 104, 125);
+}
