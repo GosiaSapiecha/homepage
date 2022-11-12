@@ -11,10 +11,10 @@ body {
 }
 
 p {
-    background-color: aquamarine;
+    background-color: rgb(127, 140, 255);
     background-position: 3px;
     border-color: navy;
-    border: 5px solid peru;
+    border: 5px solid rgb(236, 234, 117);
     text-align: center;
 }
 
