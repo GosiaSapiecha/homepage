@@ -5,12 +5,12 @@
   text-align: center;
 }
 
-body {
+.body {
   margin: 0;
   padding: 0;
 }
 
-p {
+.paragraph {
   background-color: rgb(127, 140, 255);
   background-position: 3px;
   border-color: navy;
@@ -18,22 +18,13 @@ p {
   text-align: center;
 }
 
-footer {
-  font-size: large;
-  height: 28px;
-}
-
-section {
+.section {
   margin: auto;
 }
 
-ul {
+.list {
   background-color: rgb(72, 129, 179);
   margin: auto;
-}
-
-.hotpink-header {
-  color: hotpink;
 }
 
 .image-border {
@@ -49,14 +40,14 @@ ul {
   margin: 0 auto;
 }
 
-.header-background {
+.header {
   background-color: black;
   color: yellow;
   height: 60px;
   position: relative;
 }
 
-.header-background a {
+.header__link {
   text-decoration: none;
   background-color: rgb(19, 83, 80);
   padding: 10px;
@@ -72,10 +63,12 @@ ul {
   position: fixed;
   bottom: 0;
   width: 100%;
+  font-size: large;
 }
 
-.footer a {
+.footer__link {
   display: block;
+  color: rgb(0, 0, 0);
 }
 
 .navigation {
@@ -86,4 +79,8 @@ ul {
 
 .navigation__link {
     color: lightpink;
+}
+
+.heading {
+    color: rgb(231, 99, 117);
 }
