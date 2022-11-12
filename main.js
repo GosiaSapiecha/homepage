@@ -1,9 +1,13 @@
-// const name = 'Gosia';
-// const age = 15;
+ const firstName = 'Gosia';
+ const age = 15;
 
-// console.log(`czesc nazywam sie ${name} i mam ${age}`);
-// alert(`czesc nazywan sie ${name} i mam ${age}`);
+ console.log(
+    `cześć nazywam sie ${firstName} i mam ${age}`
+    );
+
 
 const header = document.querySelector('.main-header--js');
 
-console.log(header)
+header.innerHTML = `cześć nazywan sie ${firstName} i mam ${age}`
+
+console.log(header);
