@@ -88,3 +88,9 @@
 .header__link--active {
   background-color: rgb(189, 104, 125);
 }
+
+.paragraph__second {
+  border: 5px solid rgb(241, 106, 106);
+  background-color: rgb(247, 189, 189);
+  text-align: center;
+}
