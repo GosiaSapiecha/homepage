@@ -11,3 +11,7 @@ const header = document.querySelector('.main-header--js');
 header.innerHTML = `cześć nazywan sie ${firstName} i mam ${age}`
 
 console.log(header);
+
+const emptyParagraph = document.querySelector('.paragraph__second--js');
+
+emptyParagraph.innerHTML = `Tekst napisany JavaScriptem`;
