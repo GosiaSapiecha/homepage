@@ -94,3 +94,7 @@
   background-color: rgb(247, 189, 189);
   text-align: center;
 }
+
+.list {
+  list-style: circle;
+}
