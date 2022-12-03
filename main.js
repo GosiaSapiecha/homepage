@@ -53,3 +53,23 @@ const showMeProperty = (myProperty) => {
 }
 
 showMeProperty('nieistnieje')
+
+const humanOne = {
+    name: 'Gosia',
+    age: 15,
+    address: {
+        street: 'Warszawska',
+        city: 'Siewierz',
+    }
+}
+
+const humanTwo = {
+    name: 'Martyna',
+    age: 17,
+    address: humanOne.address,
+}
+
+humanOne.age = 17;
+
+console.log(humanOne);
+console.log(humanTwo);
