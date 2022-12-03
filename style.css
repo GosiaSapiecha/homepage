@@ -38,12 +38,13 @@
 .main-margin {
   width: 1000px;
   margin: 0 auto;
+  min-height: calc(100vh - 9rem);
 }
 
 .header {
   background-color: black;
   color: yellow;
-  height: 60px;
+  height: 4rem;
   position: relative;
 }
 
@@ -56,12 +57,11 @@
 }
 
 .footer {
-  height: 100px;
+  height: 4rem;
   background-color: honeydew;
   margin: auto;
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   width: 100%;
   font-size: large;
 }
@@ -82,7 +82,8 @@
 }
 
 .heading {
-    color: rgb(231, 99, 117);
+    color: rgb(150, 115, 245);
+    text-align: center;
 }
 
 .header__link--active {
@@ -108,3 +109,10 @@
   border: 5px solid rgb(241, 106, 106);
   background-color: rgb(247, 189, 189);
 }
+
+.table {
+  width: 100%;
+  border: 5px solid rgb(37, 214, 96);
+  background-color: rgb(132, 238, 155);
+}
+
