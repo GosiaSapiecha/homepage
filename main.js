@@ -29,3 +29,27 @@ function createContent(querySelectorContent, content) {
 createContent('.paragraph__second--js', 'Witaj świecie'); 
 
 createContent('.heading--js', 'Podmieniony tytuł'); 
+
+const deathStar = {
+    diameter: 120000,
+    fire: (target) => {
+        console.log(`${target} destroyed`)
+    },
+    isOperating: true,
+    name: `Death Star`,
+    levels: 357,
+    population: 1000,
+    isLightOn: true,
+    commander: {
+        name: 'Darth Vader',
+        age: 44,
+    }
+}
+
+const myProperty = 'name'
+
+const showMeProperty = (myProperty) => {
+    console.log(`Twoja własność ${myProperty} to: ${deathStar[myProperty]}`)
+}
+
+showMeProperty('nieistnieje')
