@@ -102,3 +102,9 @@
 .list-second {
   list-style: square; 
 }
+
+.paragraph__second__list {
+  text-align: left;
+  border: 5px solid rgb(241, 106, 106);
+  background-color: rgb(247, 189, 189);
+}
