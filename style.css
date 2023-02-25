@@ -118,3 +118,13 @@
   background-color: rgb(132, 238, 155);
 }
 
+.input {
+  color: #000000;
+  width: 25%;
+  text-align: center;
+}
+
+.fieldset {
+  border: 2px solid;
+  
+}

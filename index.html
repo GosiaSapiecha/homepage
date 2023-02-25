@@ -59,27 +59,69 @@
     </section>
     <section class="section">
       <table class="table">
-      <h2 class="heading">Wady posiadania papug</h2>
-      <thead>
-        <tr>
-          <th>lp</th>
-          <th>Głośne zwierzęta</th>
-          <th>Ilość</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1.</td>
-          <td>Zwracają na siebie uwagę</td>
-          <td>Przynajmniej dwie papugi</td>
-        </tr>
-        <tr>
-          <td>2.</td>
-          <td>Są głodne</td>
-          <td>Jeśli masz jedną papugę i tak zadbaj o większą klatkę lub często ją wypuszczaj, żeby nie siedziała w zamknięciu</td>
-        </tr>
-      </tbody>
-    </table>
+        <h2 class="heading">Wady posiadania papug</h2>
+        <thead>
+          <tr>
+            <th>lp</th>
+            <th>Głośne zwierzęta</th>
+            <th>Ilość</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Zwracają na siebie uwagę</td>
+            <td>Przynajmniej dwie papugi</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Są głodne</td>
+            <td>Jeśli masz jedną papugę i tak zadbaj o większą klatkę lub często ją wypuszczaj, żeby nie siedziała w
+              zamknięciu</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="section">
+      <h1 class="heading">Logowanie</h1>
+      <form>
+        <fieldset class="fieldset">
+          <legend>Dane osobowe</legend>
+          <p>
+            <label class="input" for="pierwszeImie">Twoje pierwsze imię:</label>
+            <input class="input" name="pierwszeImie" placeholder="Podaj swoje pierwsze imie" id="pierwszeImie">
+          </p>
+
+          <p>
+            <label class="input" for="drugieImie">Twoje drugie imię:</label>
+            <input class="input" name="drugieImie" placeholder="Podaj swoje drugie imie" id="drugieImie">
+          </p>
+
+          <p>
+            <label class="input" for="nazwisko">Twoje drugie imię:</label>
+            <input class="input" name="nazwisko" placeholder="Podaj swoje nazwisko" id="nazwisko">
+          </p>
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend>Kraj zamieszkania</legend>
+          <p>
+            <label><input type="radio" name="kraj" value="polska"> Polska</label>
+          </p>
+          <p>
+            <label><input type="radio" name="kraj" value="hiszpania"> Hiszpania</label>
+          </p>
+          <p>
+            <label><input type="radio" name="kraj" value="francja"> Francja</label>
+          </p>
+        </fieldset>
+        <p>
+          <label>
+            <input name="agreement" checked type="checkbox" value="agree">Wyrażam zgodę na przesłanie danych</label>
+        </p>
+        <p>
+          <input type="submit" name="agreement" value="Wyślij">
+        </p>
+      </form>
     </section>
   </main>
   <footer class="footer">
