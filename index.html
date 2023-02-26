@@ -84,7 +84,7 @@
     </section>
     <section class="section">
       <h1 class="heading">Logowanie</h1>
-      <form>
+      <form action="https://dev.cotenfrontend.pl">
         <fieldset class="fieldset">
           <legend>Dane osobowe</legend>
           <p>
@@ -100,6 +100,12 @@
           <p>
             <label class="input" for="nazwisko">Twoje drugie imię:</label>
             <input class="input" name="nazwisko" placeholder="Podaj swoje nazwisko" id="nazwisko">
+          </p>
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend>Kod pocztowy</legend>
+          <p>
+            <label><input name="kodPocztowy" pattern="[0-9]{2}-[0-9]{3}"></label>
           </p>
         </fieldset>
         <fieldset class="fieldset">
@@ -119,7 +125,7 @@
             <input name="agreement" checked type="checkbox" value="agree">Wyrażam zgodę na przesłanie danych</label>
         </p>
         <p>
-          <input type="submit" name="agreement" value="Wyślij">
+          <input type="submit" name="wyślij">
         </p>
       </form>
     </section>
