@@ -84,7 +84,7 @@
 }
 
 .heading {
-    color: rgb(150, 115, 245);
+    color: #000000;
     text-align: center;
 }
 
@@ -126,5 +126,27 @@
 
 .fieldset {
   border: 2px solid;
-  
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+.grid__element {
+  background-color: #c26ee6;
+  color: #000000;
+  border: 5px inset #a6a0a8;
+}
+
+.grid__element__second {
+  background-color: #a6a0a8;
+  color: #000000;
+  border: 5px inset #c26ee6;
+}
+
+.paragraph__heading {
+  text-align: center;
+  border: 1px dashed #e9f2c7;
 }
